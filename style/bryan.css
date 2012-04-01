@@ -1,0 +1,30 @@
+body { padding-top:128px; background-color:#f1f1f1; }
+.center { text-align:center; }
+
+a:hover .icon { opacity:1.0; }
+
+.icon {
+	background:transparent url("../img/icons_64.png") no-repeat -384px -128px;
+	width:64px; height:64px;
+	display:inline-block;
+	opacity:0.5;
+	
+	-webkit-transition:opacity 250ms linear 0s;
+	-moz-transition:opacity 250ms linear 0s;
+	-o-transition:opacity 250ms linear 0s;
+	transition:opacity 250ms linear 0s;
+}
+
+.icon.twitter { background-position:0px -64px; }
+.icon.spotify { background-position:-64px -64px; }
+.icon.linkedin { background-position:-128px -64px; }
+.icon.github { background-position:-192px -64px; }
+.icon.foursquare { background-position:-256px -64px; }
+.icon.facebook { background-position:-320px -64px; }
+
+a:hover .icon.twitter { background-position:0px 0px; }
+a:hover .icon.spotify { background-position:-64px 0px; }
+a:hover .icon.linkedin { background-position:-128px 0px; }
+a:hover .icon.github { background-position:-192px 0px; }
+a:hover .icon.foursquare { background-position:-256px 0px; }
+a:hover .icon.facebook { background-position:-320px 0px; }
