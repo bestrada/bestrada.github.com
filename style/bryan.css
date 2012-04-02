@@ -2,7 +2,6 @@ body { padding-top:128px; background-color:#f1f1f1; }
 .center { text-align:center; }
 
 .icon:hover { opacity:1.0; }
-
 .icon {
 	background:transparent url("../img/icons_64.png") no-repeat -384px -128px;
 	width:64px; height:64px;
@@ -15,6 +14,7 @@ body { padding-top:128px; background-color:#f1f1f1; }
 	transition:opacity 1s linear 0s;
 }
 
+.icon.me { background-position:-384px 0px; }
 .icon.twitter { background-position:0px -64px; }
 .icon.spotify { background-position:-64px -64px; }
 .icon.linkedin { background-position:-128px -64px; }
