@@ -1,7 +1,7 @@
 body { padding-top:128px; background-color:#f1f1f1; }
 .center { text-align:center; }
 
-a:hover .icon { opacity:1.0; }
+.icon:hover { opacity:1.0; }
 
 .icon {
 	background:transparent url("../img/icons_64.png") no-repeat -384px -128px;
@@ -9,10 +9,10 @@ a:hover .icon { opacity:1.0; }
 	display:inline-block;
 	opacity:0.5;
 	
-	-webkit-transition:opacity 250ms linear 0s;
-	-moz-transition:opacity 250ms linear 0s;
-	-o-transition:opacity 250ms linear 0s;
-	transition:opacity 250ms linear 0s;
+	-webkit-transition:opacity 1s linear 0s;
+	-moz-transition:opacity 1s linear 0s;
+	-o-transition:opacity 1s linear 0s;
+	transition:opacity 1s linear 0s;
 }
 
 .icon.twitter { background-position:0px -64px; }
