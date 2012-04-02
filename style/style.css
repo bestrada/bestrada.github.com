@@ -3,7 +3,7 @@ body { padding-top:128px; background-color:#f1f1f1; }
 
 .icon:hover { opacity:1.0; }
 .icon {
-	background:transparent url("../img/icons_64.png") no-repeat -384px -128px;
+	background:transparent url("../img/icons.png") no-repeat -384px -128px;
 	width:64px; height:64px;
 	display:inline-block;
 	opacity:0.5;
