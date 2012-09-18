@@ -16,6 +16,7 @@
   .col { width: 425px; }
   .fl { float:left; }
   .fr { float:right; }
+  .hidden { display:none; }
   p { margin-top:0px; }
 </style>
 
@@ -24,16 +25,17 @@
 <div id="fb-root"></div>
 
 <div class="clear">
-<div class="fl col">
-	<p><img src="http://cdn.someecards.com/someecards/filestorage/birt_109.jpg" alt="birthday" /></p>
+<div class="fl col" itemscope itemtype="http://schema.org/SocialEvent">
+	<p><img itemprop="image" src="http://cdn.someecards.com/someecards/filestorage/birt_109.jpg" alt="birthday" /></p>
 </div>
 <div class="fr col">
-	<p><strong>Saturday, September 22, 2012</strong></p>
+	<h1 class="hidden" itemprop="name">Bryan's Birthday</h1>
+	<p><strong itemprop="startDate" datetime="2012-09-22T22:00">Saturday, September 22, 2012</strong></p>
 	<p>
 		<a href="http://www.yelp.com/biz/make-out-room-san-francisco" target="_blank">Make-Out Room</a> &mdash; <a href="https://maps.google.com/maps?q=3225+22nd+Street,+San+Francisco,+CA+94110&hl=en&ll=37.755566,-122.41956&spn=0.010077,0.017016&sll=37.6,-95.665&sspn=40.979597,69.697266&oq=3225+22nd+St+San+Francisco,+CA+94110&hnear=3225+22nd+St,+San+Francisco,+California+94110&t=m&z=16&iwloc=A" target="_blank">3225 22nd Street</a><br />
 		10pm &ndash; whenever
 	</p>
-	<p>Please help me celebrate my birthday this Saturday! Make-Out room is a bar and they cover; so if you're an adult and have access to five dollars, then you're eligible to attend! Consider the five bucks your gift to me.</p>
+	<p itemprop="description">Please help me celebrate my birthday this Saturday! Make-Out room is a bar and they cover; so if you're an adult and have access to five dollars, then you're eligible to attend! Consider the five bucks your gift to me.</p>
 	<p><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Bryan's%20Birthday&dates=20120923T080000Z/20120923T120000Z&details=Please%20help%20me%20celebrate%20my%20birthday%20this%20Saturday!%20Make-Out%20room%20is%20a%20bar%20and%20they%20cover%3B%20so%20if%20you're%20an%20adult%20and%20have%20access%20to%20five%20dollars%2C%20then%20you're%20eligible%20to%20attend!%20Consider%20the%20five%20bucks%20your%20gift%20to%20me.&location=Make-Out%20Room%2C%2022nd%20Street%2C%20San%20Francisco%2C%20CA&trp=false&sprop=http%3A%2F%2Fbryanestrada.com%2Fbday2012%2Findex.html&sprop=name:Bryan's%20Birthday" target="_blank"><img src="//www.google.com/calendar/images/ext/gc_button6.gif" border=0></a></p>
 </div>
 </div>
