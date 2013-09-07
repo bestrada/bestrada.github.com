@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>test referer</title></head>
+<head>
+    <title>test tokbox</title>	
+    <script src='https://swww.tokbox.com/webrtc/v2.0/js/TB.min.js'></script>
+</head>
 
 <body>
-	<p><a href="http://lockerstaging8.flixster.com/mymovies/collection/wbdcr=771249562/">click me</a></p>
-	
+	<div id="myPublisherDiv"></div>
+        <script type="text/javascript">
+          // Initialize API key, session, and token...
+          // Think of a session as a room, and a token as the key to get in to the room
+          // Sessions and tokens are generated on your server and passed down to the client
+          var apiKey = "40584882";
+          var sessionId = "1_MX40MDU4NDg4Mn4xMjcuMC4wLjF-U2F0IFNlcCAwNyAxMzoxMjozMSBQRFQgMjAxM34wLjgwNzgyNDczfg";
+          var token = "T1==cGFydG5lcl9pZD00MDU4NDg4MiZzZGtfdmVyc2lvbj10YnJ1YnktdGJyYi12MC45MS4yMDExLTAyLTE3JnNpZz1mMDJiMTQ5MWFjZmJiNzJiMTliYTY5NzgxMTljMDViNTQ1Mjk4YzM2OnJvbGU9cHVibGlzaGVyJnNlc3Npb25faWQ9MV9NWDQwTURVNE5EZzRNbjR4TWpjdU1DNHdMakYtVTJGMElGTmxjQ0F3TnlBeE16b3hNam96TVNCUVJGUWdNakF4TTM0d0xqZ3dOemd5TkRjemZnJmNyZWF0ZV90aW1lPTEzNzg1ODQ3NTEmbm9uY2U9MC41NTE0MjkyNjM0MjA2Mjk4JmV4cGlyZV90aW1lPTEzNzg2NzExNTAmY29ubmVjdGlvbl9kYXRhPQ==";
+
+          // Initialize session, set up event listeners, and connect
+          var session = TB.initSession(sessionId);
+          session.addEventListener('sessionConnected', sessionConnectedHandler);
+          session.connect(apiKey, token);
+          
+          function sessionConnectedHandler(event) {
+            var publisher = TB.initPublisher(apiKey, 'myPublisherDiv');
+            session.publish(publisher);
+          }
+        </script>
 </body>
 </html>
