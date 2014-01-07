@@ -1,1 +1,18 @@
-hello world! oct 9, 2013
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://js.pusher.com/2.1/pusher.min.js"></script>
+    <script>
+      var pusher = new Pusher("20c71c74575d575b7ab3");
+      var channel = pusher.subscribe("rovitxns");
+      channel.bind("txn", function(data) {
+          console.log(data);
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    
+  </body>
+  
+</html>
