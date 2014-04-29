@@ -37,7 +37,7 @@ We'd like one-year commitments for this work, no benefits. These jobs can be don
 Please include writing samples when applying. (Please paste links or stories onto end of your cover letter.) Applications without writing samples will not be considered. Finalists will be offered test assignments, which we will pay for if work is delivered in publishable condition. (We determine publishable condition. We don't want work that needs heavy editing, backfilling or correcting.) We will not pay for unpublishable work.
 
 ## Architecture/Engineering firm
-### (Technical Writer/Editor/Admin)[http://sfbay.craigslist.org/sfc/wri/4426476479.html]
+### [Technical Writer/Editor/Admin](http://sfbay.craigslist.org/sfc/wri/4426476479.html)
 We are a well-established professional architectural and engineering firm seeking a highly motivated individual to provide technical writing, editing, production, and administrative support to our staff for a variety of tasks. 
 
 This is an entry position with an opportunity for growth. We are seeking an individual who has demonstrated excellent writing and organization skills, a first-rate work ethic, and strong academic performance. Such an individual may find a challenging and exciting career path with a wide range of growth opportunities within our organization.
