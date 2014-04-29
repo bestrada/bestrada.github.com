@@ -35,3 +35,9 @@ We're looking for 20 journalists or journalism students to write hyperlocal cont
 We'd like one-year commitments for this work, no benefits. These jobs can be done 100% remotely, on your own schedule. We just want the work to be consistently done well and delivered on time. We need a commitment of at least two stories a week, which will take 16-20 hours a week total. (We have done many of these stories and know that cutting corners immediately shows, so please note that time commitment is firm.) We have enough work for writers who can do 40-hour weeks. (Writers who perform exceptionally well will be considered for full-time staff jobs, which offer robust benefits and salaries that are competitive with major news outlets. We're based in San Francisco.)
 
 Please include writing samples when applying. (Please paste links or stories onto end of your cover letter.) Applications without writing samples will not be considered. Finalists will be offered test assignments, which we will pay for if work is delivered in publishable condition. (We determine publishable condition. We don't want work that needs heavy editing, backfilling or correcting.) We will not pay for unpublishable work.
+
+## Architecture/Engineering firm
+### (Technical Writer/Editor/Admin)[http://sfbay.craigslist.org/sfc/wri/4426476479.html]
+We are a well-established professional architectural and engineering firm seeking a highly motivated individual to provide technical writing, editing, production, and administrative support to our staff for a variety of tasks. 
+
+This is an entry position with an opportunity for growth. We are seeking an individual who has demonstrated excellent writing and organization skills, a first-rate work ethic, and strong academic performance. Such an individual may find a challenging and exciting career path with a wide range of growth opportunities within our organization.
