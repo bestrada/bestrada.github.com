@@ -3,6 +3,11 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# 
                   profile: http://ogp.me/ns/profile#">
 	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+    <meta http-equiv="cleartype" content="on">
+    
 	<title>Bryan Estrada</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 	<meta name="description" content="Hi, I'm Bryan: software hacker, gadget connoisseur, and resident of the great city of San Francisco.">
@@ -18,7 +23,7 @@
 	<meta property="profile:first_name" content="Bryan">
 	<meta property="profile:last_name" content="Estrada">
 	<meta property="profile:gender" content="male">
-    <link href='http://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 	@font-face {
         font-family: 'Mono Social Icons Font';
@@ -44,55 +49,34 @@
         -ms-font-smoothing: antialiased;
         -o-font-smoothing: antialiased;
         font-smoothing: antialiased;
-        font-size:250%;
+        font-size:350%;
     }
     
+    body {
+        margin:16px auto 16px auto;
+        width:320px;
+    }
     .center { text-align:center; }
-    
-	    body, a, a:visited {
-	        color:#fff;
-	        font-family: 'Open Sans', sans-serif;
-	        text-decoration:none;
-	    }
-	    a.fb:hover { color:#5E8CCB; }
-	    a.linkedin:hover { color:#33AEE9; }
-	    a.twitter:hover { color:#00ACED; }
-	    a.foursquare:hover { color:#33A5E4; }
-	    a.github:hover { color:#999; }
-	    .profile {
-	        position:fixed; top:0px; right:0px; bottom:0px;
-	        width:300px;
-	        background:rgba(0,0,0,0.5);
-	        padding:32px;
-	    }
-	    
-	    .profile h1 {
-	        font-family: 'Special Elite', cursive;
-	        font-size:250%;
-	    }
-	    .profile p {
-	        margin:16px 0px;
-	        line-height:1.5em;
-	    }
-	    img.bg { 
-	        min-width:1024px; width:100%;
-	        position:fixed; top:0px; left:0px;
-	    }
-
+    body, a, a:visited {
+        background-color:#f2f2f2;
+        color:#444;
+        font-family: 'Droid Serif', serif;
+        text-decoration:none;
+    }
+    a.fb { color:#3B5998; }
+    a.linkedin { color:#007bb6; }
+    a.github { color:#666; }
+    h1 { font-size:600%; margin:0px 8px 16px 8px; }
 	</style>
 </head>
 <body>
-    <img class="bg" src="./img/P4204397.jpg" alt="levitate" />
-    <div class="profile">
-        <h1>Bryan Estrada</h1>
-        <p>Hi, I'm Bryan: software hacker, gadget connoisseur, and resident of the great city of San Francisco.</p>
-        <p class="center" style="margin-top:32px;">
-           <a target="_blank" href="https://www.facebook.com/bestrada" title="facebook" class="fb"><span class="symbol">roundedfacebook</span></a>&nbsp;
-           <a target="_blank" href="https://www.linkedin.com/in/bestrada" title="linkedin" class="linkedin"><span class="symbol">roundedlinkedin</span></a>&nbsp;
-           <a target="_blank" href="https://github.com/bestrada" title="github" class="github"><span class="symbol">roundedgithubalt</span></a>&nbsp;
-           <!--<a target="_blank" href="https://twitter.com/bryanestrada" title="twitter" class="twitter"><span class="symbol">roundedtwitterbird</span></a>&nbsp;
-           <a target="_blank" href="https://foursquare.com/user/38561" title="foursquare" class="foursquare"><span class="symbol">roundedfoursquare</span></a>-->
-        </p>
-    </div>
+    <h1 class="center">bryan estrada</h1>
+    <p class="center">
+       <a target="_blank" href="https://www.facebook.com/bestrada" title="facebook" class="fb"><span class="symbol">roundedfacebook</span></a>&nbsp;
+       <a target="_blank" href="https://www.linkedin.com/in/bestrada" title="linkedin" class="linkedin"><span class="symbol">roundedlinkedin</span></a>&nbsp;
+       <a target="_blank" href="https://github.com/bestrada" title="github" class="github"><span class="symbol">roundedgithubalt</span></a>&nbsp;
+       <!--<a target="_blank" href="https://twitter.com/bryanestrada" title="twitter" class="twitter"><span class="symbol">roundedtwitterbird</span></a>&nbsp;
+       <a target="_blank" href="https://foursquare.com/user/38561" title="foursquare" class="foursquare"><span class="symbol">roundedfoursquare</span></a>-->
+    </p>
 </body>
 </html>
