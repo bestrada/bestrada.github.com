@@ -1,0 +1,30 @@
+{
+  "test1@bge.me" : {
+    "products" : [
+      {
+        "title" : "\"After All This Time? Always\" Magical Charm Bracelet",
+        "handle" : "after-all-this-time-always-magical-charm-bracelet",
+        "img" : "https://cdn.shopify.com/s/files/1/0445/7469/products/1a_fec87973-77a9-4179-bde6-d5638d1cae88_medium.jpg?v=1494527942"
+      },
+      {
+        "title" : "\"Always\" Leggings",
+        "handle" : "always-leggings",
+        "img" : "https://cdn.shopify.com/s/files/1/0445/7469/products/shop_image_1_d9625de0-f57f-4f04-8631-cf44b34bd0e2_medium.png?v=1491998427"
+      }
+    ]
+  },
+  "andrew@fanrock.com" : {
+    "products" : [
+      {
+        "title" : "\"Coolest Leggings Ever\" Leggings",
+        "handle" : "coolest-leggings-ever-leggings",
+        "img" : "https://cdn.shopify.com/s/files/1/0445/7469/products/shop_image_1_medium.jpg?v=1490270510"
+      },
+      {
+        "title" : "\"Always\" Leggings",
+        "handle" : "always-leggings",
+        "img" : "https://cdn.shopify.com/s/files/1/0445/7469/products/shop_image_1_d9625de0-f57f-4f04-8631-cf44b34bd0e2_medium.png?v=1491998427"
+      }
+    ]
+  }
+}
