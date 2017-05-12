@@ -1,4 +1,7 @@
 {
+  "test" : {
+    "foo":"bar"
+  },
   "test1@bge.me" : {
     "products" : [
       {
